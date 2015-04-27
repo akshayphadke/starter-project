@@ -4,9 +4,9 @@
     <title>favs</title>
     <link href="resources/css/libs.css" rel="stylesheet">
 </head>
-<body style="background-color: #485561;">
+<body style="background-color: #21313F;">
 
-<div id="login" class="container-fluid" style="margin-top: 200px">
+<div id="login" class="container-fluid" style="margin-top: 100px">
 
     <div class="row">
 
@@ -26,11 +26,11 @@
                 </div>
 
                 <div class="col-md-10 form-element">
-                    <div class="pull-left" style="padding-top: 6px;">
+                    <div class="pull-left" style="padding-top: 6px;color: #FFF">
                         <input type="checkbox" name="_spring_security_remember_me"> Remember me
                     </div>
                     <div class="pull-right">
-                        <button type="submit" class="btn btn-primary" name="submit"style="width: 125px">Sign in</button>
+                        <button type="submit" class="btn btn-primary" name="submit"style="width: 100px">Sign in</button>
                     </div>
                     <div class="clearfix"/>
                 </div>
