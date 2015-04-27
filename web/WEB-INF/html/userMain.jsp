@@ -5,19 +5,34 @@
 </head>
 <body>
 
-<div class="container-fluid" style="min-height: 50px; background-color: #2E87C1">
+<div id="top-nav" class="container-fluid" style="color: #FFF; padding-top: 8px">
+    <div class="pull-left">
+        <button class="btn btn-primary">+ Add New</button>
+    </div>
+    <div class="pull-right">
+        <p>Hello, ${userDetails.username}! <a href="logout">Logout</a></p>
+    </div>
 
 </div>
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-3" style="height: 100vh; background-color: #2F363E; width: 250px">
-            Menu
-        </div>
-        <div class="col-md-9">
-            <p>Hello, ${userDetails.username}! <a href="logout">Logout</a></p>
+        <div class="col-md-8" style="padding-top: 24px">
 
-            <button class="btn btn-primary">primary button</button>
+         <div class="item-card">
+             <div class="item-card-header">
+                Item card cover
+             </div>
+             <div class="item-card-body">
+                 <p>Body line 1</p>
+                 <p>Body line 2</p>
+                 <p>Body line 3</p>
+                 <p>Body line 4</p>
+             </div>
+             <div class="item-card-footer">
+
+             </div>
+         </div>
 
         </div>
     </div>
